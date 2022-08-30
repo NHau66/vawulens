@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Logo from '../images/logo.png';
 import { FaLinkedin } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebookF } from 'react-icons/fa';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiFillInstagram } from 'react-icons/ai';
 
@@ -14,16 +14,15 @@ const Footer = () => {
                         <img src={Logo} alt="Footer Logo" />
                     </Link>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat non provident dicta ab iure
-                        quas nisi recusandae? Necessitatibus reprehenderit nulla laborum velit optio alias itaque
-                        suscipit nam, accusantium illum esse!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui tenetur harum pariatur! Iusto
+                        animi cupiditate, provident dolore porro eum obcaecati.
                     </p>
                     <div className="footer__socials">
                         <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener">
                             <FaLinkedin />
                         </a>
                         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">
-                            <FaFacebook />
+                            <FaFacebookF />
                         </a>
                         <a href="https://www.twitter.com/" target="_blank" rel="noreferrer noopener">
                             <AiOutlineTwitter />
